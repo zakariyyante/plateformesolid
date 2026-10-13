@@ -1,0 +1,23 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Subtle container for context -->
+  <rect width="64" height="64" rx="16" fill="white" opacity="0.03" />
+  
+  <!-- Left Panel (Royal Blue) -->
+  <path d="M32 46 L14 52 V16 L32 22 Z" fill="#0047FF" />
+  
+  <!-- Right Panel (Dark Navy) -->
+  <path d="M32 46 L50 52 V16 L32 22 Z" fill="#0F172A" />
+  
+  <!-- Center Overlap (Lighter Blue) -->
+  <rect x="28" y="19" width="8" height="30" fill="#38BDF8" opacity="0.5" />
+
+  <!-- Pill-shaped Bars Left -->
+  <rect x="18" y="27" width="8" height="2.5" rx="1.25" fill="white" />
+  <rect x="18" y="33" width="8" height="2.5" rx="1.25" fill="white" />
+  <rect x="18" y="39" width="8" height="2.5" rx="1.25" fill="white" />
+  
+  <!-- Pill-shaped Bars Right -->
+  <rect x="38" y="27" width="8" height="2.5" rx="1.25" fill="white" />
+  <rect x="38" y="33" width="8" height="2.5" rx="1.25" fill="white" />
+  <rect x="38" y="39" width="8" height="2.5" rx="1.25" fill="white" />
+</svg>

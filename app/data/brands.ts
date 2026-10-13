@@ -1,0 +1,415 @@
+export interface Brand {
+  id: string;
+  name: string;
+  logo: string;
+  rating: number;
+  bonus: string;
+  url: string;
+  isMobile: boolean;
+  votes: number;
+}
+
+export const brands: Brand[] = [
+ 
+  // {
+  //     id: "Lussurio",
+  //     name: "Lussurio",
+  //     logo: "/brands/lussurio.svg",
+  //     rating: 9.9,
+  //     bonus: "550% JUSQU'À 3485€ + 400 TOURS GRATUITS",
+  //     url: "https://lussurios.com/afweyuz2fh?subid=Lussurio-SL2FR35&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+  // },
+  // {
+  //       id: "SpinKong",
+  //      name: "SpinKong",
+  //      logo: "/brands/Spinkong.webp",
+  //      rating: 9.9,
+  //      bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
+  //      url: "https://bestcpa.online/click?o=683&a=36&link_id=1100&sub_id1=SpinKong-SL2FR35&aff_click_id=",
+  //      isMobile: true,
+  //      votes: 12450,
+  //  },
+  {
+    id: "SpinFormula",
+    name: "SpinFormula",
+    logo: "/brands/Spinformula.svg",
+    rating: 9.8,
+    bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+    url: "https://corsa.cxclick.com/visit/?bta=35059&nci=5345&utm_campaign=SpinFormula-SL2FR35&afp=",
+    isMobile: true,
+    votes: 12450,
+    
+   },
+{
+    id: "WinHero",
+    name: "WinHero",
+    logo: "/brands/winhero1.png",
+    rating: 9.9,
+    bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
+    url: "https://goplaywithstars.com/tifrluy2s?subid=WinHero-SL2FR35&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    },
+
+  
+  //  {
+  //   id: "LunaLoots",
+  //   name: "LunaLoots",
+  //   logo: "/brands/lunaloots.svg",
+  //   rating: 9.8,
+  //   bonus: "250% JUSQU'À 2500€ + 100 TOURS GRATUITS",
+  //   url: "https://bestcpa.online/click?o=693&a=36&sub_id1=LunaLoots-SL2FR35&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  //  },
+  // {
+  //   id: "MamaBet",
+  //    name: "MamaBet",
+  //   logo: "/brands/mamabet.png",
+  //   rating: 9.8,
+  //   bonus: "150% JUSQU'À 1500€ + 150 TOURS GRATUITS",
+  //    url: "https://trackingmama1.com/dzzsoognv?subid=MamaBet-SL2FR35&clickid=",
+  //    isMobile: true,
+  //   votes: 12450,
+     
+  //  },
+
+ 
+ 
+  
+    
+   {
+     id: "Tower Casino",
+     name: "Tower Casino",
+     logo: "/brands/towercasino.png",
+     rating: 9.8,
+     bonus: "100% JUSQU'À 2000€ + 300 TOURS GRATUITS",
+     url: "https://mysaga.trk2afse.com/click?pid=3&offer_id=219&sub2=TowerCasino-SL2FR35&sub1=",
+    isMobile: true,
+     votes: 12450,
+    
+   },
+//    {
+//         id: "BinoBet",
+//          name: "BinoBet",
+//     logo: "/brands/binobet.png",
+//          rating: 9.9,
+//     bonus: "JUSQU'À 1500€ + 150 TOURS GRATUITS",
+//         url: "https://trackingbino.bet/djl0mhf50?subid=BinoBet-SL2FR35&clickid=",
+//         isMobile: true,
+//         votes: 12450,
+//      },
+  // {
+  //       id: "PikeCasino",
+  //       name: "PikeCasino",
+  //       logo: "/brands/pikecasino.svg",
+  //       rating: 9.9,
+  //       bonus: "200% + 400 TOURS GRATUITS",
+  //       url: "https://track-otn.com/trk.php?t=3578&c=6701&subid=PikeCasino-SL2FR35&clickid=",
+  //       isMobile: true,
+  //       votes: 12450,
+  //     },
+  
+//       {
+//     id: "LambaBet",
+//     name: "LambaBet",
+//     logo: "/brands/logo-2.png",
+//     rating: 9.9,
+//     bonus: "525% JUSQU'À 8000€ + 475 TOURS GRATUITS",
+//     url: "https://gowinlamba.com/ttmync7tc?subid=LambaBet-SL2FR35&visit_id=",
+//     isMobile: true,
+//     votes: 12450,
+//   },
+
+ 
+
+
+  //  {
+  //  id: "SpinReelz",
+   //  name: "SpinReelz",
+  //  logo: "/brands/spinreelz.svg",
+  //  rating: 9.8,
+  //  bonus: "425% JUSQU'À 55000€ + 525 TOURS GRATUITS",
+  //   url: "https://spinreelz777.net/d5gjwr8b3?subid=SpinReelz-SL2FR35&visit_id=",
+  //   isMobile: true,
+  //  votes: 12450,
+    
+  // },
+      
+      // {
+      //   id: "SpinTexas",
+      //   name: "SpinTexas",
+      //   logo: "/brands/spintexas.svg",
+      //   rating: 9.8,
+      //   bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
+      //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6183&afp1=SpinTexas-SL2FR35&afp=",
+      //   isMobile: true,
+      //   votes: 12450,
+        
+      //  }, 
+      //  {
+      //   id: "EvoBet",
+      //   name: "EvoBet",
+      //   logo: "/brands/Spinformula.svg",
+      //   rating: 9.8,
+      //   bonus: "550% JUSQU'À 15000€ + 550 TOURS GRATUITS",
+      //   url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6512&afp1=EvoBet-SL2FR35&afp=",
+      //   isMobile: true,
+      //   votes: 12450,
+        
+      //  }, 
+       
+      // {
+      //       id: "Kingia",
+      //       name: "Kingia",
+      //       logo: "/brands/kingia.webp",
+      //       rating: 9.9,
+      //       bonus: "440% JUSQU'À 15 000€ + 440 TOURS GRATUITS",
+      //       url: "https://go.route66.partners/visit/?bta=35065&nci=5344&utm_campaign=Kingia-SL2FR35&afp=",
+      //       isMobile: true,
+      //       votes: 12450,
+      //     },
+//   {
+//         id: "VegasNova",
+//          name: "VegasNova",
+//     logo: "/brands/vegasnova.webp",
+//          rating: 9.9,
+//     bonus: "100% JUSQU'À 2000€ + 100 TOURS GRATUITS",
+//         url: "https://www.playershub.partners/visit/?bta=2475551&nci=5361&afp1=VegasNova-SL2FR35&afp=",
+//         isMobile: true,
+//         votes: 12450,
+//      },
+ 
+
+   
+  //   {
+  //      id: "GoldenPlay",
+  //      name: "GoldenPlay",
+  //      logo: "/brands/goldenplay.svg",
+  //      rating: 9.9,
+  //      bonus: "100% JUSQU'À 555 € + 100 TOURS GRATUITS",
+  //      url: "https://record.gplaynetopartners.com/_vly5BcOM0H2Capx6qLanuGNd7ZgqdRLk/9/?pg=3&subid=GoldenPlay-SL2FR35&cid=",
+  //      isMobile: true,
+  //      votes: 12450,
+  //      },
+        // {
+  //      id: "WinBeast",
+  //       name: "WinBeast",
+  //       logo: "/brands/winbeast.svg",
+  //       rating: 9.9,
+  //       bonus: " JUSQU'À 12000 € + 450 TOURS GRATUITS + 650 Paris Gratuits",
+  //       url: "https://beast-net.co/anul7upzd?subid=WinBeast-SL2FR35&visit_id=",
+  //       isMobile: true,
+  //       votes: 12450,
+  //      },
+  //          {
+  //              id: "USpin",
+  //              name: "USpin",
+  //              logo: "/brands/uspinme.svg",
+  //              rating: 9.8,
+  //              bonus: "JUSQU'À 3000€ + 150 TOURS GRATUITS",
+  //              url: "https://record.primeweb-affiliates.com/_tr-EYsOFBf-3_O3IiMN7EWNd7ZgqdRLk/1?s2s.req_id=UspinMe-SL2FR35&payload=",
+  //              isMobile: true,
+  //              votes: 12450,
+               
+  //            },
+  //        {
+  //      id: "LuckyGem",
+  //      name: "LuckyGem",
+  //      logo: "/brands/lucky.svg",
+  //       rating: 9.9,
+  //      bonus: "700% + 700 TOURS GRATUITS",
+  //      url: "https://bestcpa.online/click?o=440&a=75&link_id=829&sub_id1=LuckyGem-SL2FR35&aff_click_id=",
+  //      isMobile: true,
+  //      votes: 12450,
+  //     },
+   
+ 
+  
+
+ 
+  
+  
+ 
+    // {
+    //       id: "Betportal",
+    //        name: "Betportal",
+    //            logo: "/brands/betportal.svg",
+    //            rating: 9.9,
+    //            bonus: "300% JUSQU'À 1000 €/$ + 250 TOURS GRATUITS",
+    //            url: "https://bestcpa.online/click?o=597&a=36&sub_id1=BetPortal-SL2FR35&aff_click_id=",
+    //            isMobile: true,
+    //            votes: 12450,
+    //          },
+     
+  // {
+  //   id: "BetNJet",
+  //   name: "BetNJet",
+  //   logo: "/brands/betnjet.webp",
+  //   rating: 9.8,
+  //   bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
+  //   url: "https://gtrfk.com/jiasgddfx?subid=BetNJet-SL2FR35&visit_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  //  }, 
+  
+ 
+
+
+    
+
+  
+  
+     //    {
+      // id: "BravoPlay",
+      //   name: "BravoPlay",
+      //   logo: "/brands/bravoplay.svg",
+      //   rating: 9.8,
+      //   bonus: "JUSQU'À 5000€ + 150 TOURS GRATUITS ",
+      //   url: "https://trk.arztrc.site/click?o=1&a=82&c=314&link_id=39&sub_id1=BravoPlay-SL2FR35&aff_click_id=",
+      //   isMobile: true,
+      //     votes: 12450,
+        
+     // },
+    
+    // {
+     //  id: "GambleGorilla",
+      //  name: "GambleGorilla",
+      //  logo: "/brands/gamblegorilla.svg",
+      //  rating: 9.8,
+      //  bonus: "350% JUSQU'À 2000€ + 1000 TOURS GRATUITS",
+      //  url: "https://go.froggypartners.com/visit/?bta=35987&nci=7347&afp1=GambleGorilla-SL2FR35&afp=",
+      //  isMobile: true,
+      //  votes: 12450,
+      //    },
+    
+     // {
+    //      id: "Emberbet",
+     //       name: "Emberbet",
+     //       logo: "/brands/emerbet.svg",
+     //       rating: 9.9,
+      //    bonus: "200% JUSQU'À 1000€ + 100 TOURS GRATUITS",
+      //      url: "https://bestcpa.online/click?o=650&a=36&link_id=1042&sub_id1=EmberBet-SL2FR35&aff_click_id=",
+      //      isMobile: true,
+      //      votes: 12450,
+      //    },
+          
+         
+      // {
+      //       id: "WinKingdom",
+      //       name: "WinKingdom",
+      //       logo: "/brands/winkingdom.svg",
+      //       rating: 9.9,
+      //       bonus: "JUSQU'À 15000€ + 550TG",
+      //       url: "https://winkingdom.media/n1ol6qkvws?subid=WinKingdom-SL2FR35&visit_id=",
+      //       isMobile: true,
+      //       votes: 12450,
+      //     },
+  // {
+  //   id: "VillaSpin",
+  //   name: "VillaSpin",
+  //   logo: "/brands/villaspin.webp",
+  //   rating: 9.8,
+  //   bonus: "500% JUSQU'À 15000€ + 500TG",
+  //   url: "https://go.drctvoodoo.com/click?pid=6&offer_id=731&sub_id1=VillaSpin-SL2FR35&aff_click_id=",
+  //   isMobile: true,
+  //   votes: 12450,
+    
+  // },
+  // {
+  //       id: "WinPlace",
+  //       name: "WinPlace",
+  //       logo: "/brands/winplace.png",
+  //       rating: 9.9,
+  //       bonus: "250% JUSQU'À 14000€ + 300TG ",
+  //       url: "https://winplacepartner.media/n1q6puxsfo?subid=WinPlace-SL2FR35&visit_id=",
+  //       isMobile: true,
+  //       votes: 12450,
+  //     },
+
+//     {
+//     id: "BetBluff",
+//     name: "BetBluff",
+//     logo: "/brands/BETBLUFF.svg",
+//     rating: 9.9,
+//     bonus: "350% JUSQU'À 2000€ + 1000TG ",
+//     url: "https://go.evoaffiliates.com/visit/?bta=38782&nci=6556&afp1=BetBluff-SL2FR35&afp=",
+//     isMobile: true,
+//     votes: 12450,
+//   },
+
+  //!!!DANGER ZONE!!!
+  // {
+  //   id: "LunaLoots",
+  //   name: "LunaLoots",
+  //   logo: "/brands/lunaloots.svg",
+  //   rating: 9.8,
+  //   bonus: "250% JUSQU'À 2500€ + 100 TOURS GRATUITS",
+  //   url: "https://bestcpa.online/click?o=693&a=75&sub_id1=LunaLoots-SL2FR35&aff_click_id=",
+  //  isMobile: true,
+  //   votes: 12450,
+   
+  // },  
+   
+  // {
+  //   id: "BelloCasino",
+  //   name: "BelloCasino",
+  //   logo: "/brands/bello.webp",
+  //   rating: 9.8,
+  //   bonus: "600% JUSQU'À + 450 TOURS GRATUITS",
+  //   url: "https://bestcpa.online/click?o=689&a=75&sub_id1=BelloCasino-SL2FR35&aff_click_id=",
+  //  isMobile: true,
+  //   votes: 12450,
+   
+  // }, 
+  {
+       id: "GoloBet",
+       name: "GoloBet",
+       logo: "/brands/golobet.webp",
+       rating: 9.8,
+       bonus: "600% JUSQU'À 6000€ + 450 TOURS GRATUITS",
+       url: "https://bestcpa.online/click?o=688&a=75&sub_id1=GoloBet-SL2FR35&aff_click_id=",
+      isMobile: true,
+       votes: 12450,
+      
+     }, 
+  // {
+  //     id: "SpinKong",
+  //     name: "SpinKong",
+  //     logo: "/brands/Spinkong.webp",
+  //     rating: 9.9,
+  //     bonus: "400% JUSQU'À 1000€ + 250 TOURS GRATUITS",
+  //     url: "https://bestcpa.online/click?o=683&a=75&sub_id1=SpinKong-SL2FR35&aff_click_id=",
+  //     isMobile: true,
+  //     votes: 12450,
+  // },
+  
+  {
+    id: "bwin-fr",
+    name: "Bwin",
+    logo: "/brands/bwin_dark.png",
+    rating: 9.9,
+    bonus: "Votre mise remboursée jusqu'à 100€",
+    url: "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2159573&clickid=",
+    isMobile: false,
+    votes: 2556,
+  },
+  
+//   {
+//     id: "WinoCasino",
+//     name: "WinoCasino",
+//     logo: "/brands/wino.svg",
+//     rating: 9.9,
+//     bonus: "600% jusqu’à 10000€",
+//     url: "https://go.afftrackio.com/visit/?bta=35487&nci=5357&utm_campaign=WinoCasino-SL2FR24&afp=",
+//     isMobile: true,
+//     votes: 12450,
+//   },
+
+
+ 
+];
